@@ -29,5 +29,6 @@ public class todo_result {
             else System.out.println("(미정)");
 //            '1'인 번호만 (완료) 나오게
         }
+        System.out.println("===================");
     }
 }
