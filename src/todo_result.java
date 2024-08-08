@@ -21,7 +21,7 @@ public class todo_result {
     private void setAnswer(List<Integer> integers) {
 //        integers 구조 ex) [0,0,1,0,0]
 
-        List<String> ans_list = Arrays.asList("1. 주간 보고서 작성", "2. 이메일 확인 및 응답", "3. 회의 준비" +
+        List<String> ans_list = Arrays.asList("1. 주간 보고서 작성", "2. 이메일 확인 및 응답", "3. 회의 준비",
                 "4. 프로젝트 계획서 수정", "5.팀 멤버와의 1:1 면담");
         for (int i = 0; i < 5; i++) {
             System.out.print(ans_list.get(i));
